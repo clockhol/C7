@@ -3,33 +3,76 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Challenge 7</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="screen.css">
+
   </head>
   <body>
-    <div class="d-flex">
-      <div class="dropdown me-1">
-        <button type="button" class="btn --bs-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
-          Popular
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Popular</a></li>
-          <li><a class="dropdown-item" href="#">New & Noteworthy</a></li>
-        </ul>
+    <div class="container-md"> 
+      <div class="d-flex">
+        <div class="dropdown me-1">
+          <button type="button" class="btn --bs-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+            Popular
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Popular</a></li>
+            <li><a class="dropdown-item" href="#">New & Noteworthy</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div class="jumbotron">
-      <div class="container">
-          <h1>Welcome to Bootstrap!</h1>
-          <p>This is where it all begins!</p>
-          <p><a class="btn btn-primary btn-lg" target="_blank" href="https://getbootstrap.com" role="button">Learn more &raquo;</a></p>
-      </div>
-  </div>
+    <nav class="nav justify-content-center">
+      <a class="nav-link" href="#">Discover</a>
+      <a class="nav-link" href="#">Animation</a>
+      <a class="nav-link" href="#">Branding</a>
+      <a class="nav-link" href="#">Illistration</a>
+      <a class="nav-link" href="#">Mobile</a>
+      <a class="nav-link" href="#">Print</a>
+      <a class="nav-link" href="#">Product Design</a>
+      <a class="nav-link" href="#">Typography</a>
+      <a class="nav-link" href="#">Web Design</a>
+    </nav>
 
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container justify-content-center">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" style="width: 20rem;">
+        <img src="/images/VoFredrocks.jpg" class="card-img-top" alt="Valley of Fire Red Rocks">
+        <div class="card-body">
+          <h5 class="card-title">Valley of Fire Red Rocks</h5>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 20rem;">
+          <img src="/images/VoFroad.jpg" class="card-img-top" alt="Valley of Fire Road">
+          <div class="card-body">
+            <h5 class="card-title">Valley of Fire Road</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 20rem;">
+          <img src="/images/VoFsheep.jpg" class="card-img-top" alt="Valley of Fire Big Horned Sheep">
+          <div class="card-body">
+            <h5 class="card-title">Valley of Fire Big Horned Sheep</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 20rem;">
+          <img src="/images/VoFtrail.jpg" class="card-img-top" alt="Valley of Fire Trail">
+          <div class="card-body">
+            <h5 class="card-title">Valley of Fire Trail</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </body>
 </html>
